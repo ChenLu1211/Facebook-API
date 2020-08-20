@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DB809C5-3760-4AB9-AB94-00EF31E5C89D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>C20_EX01_Shiraz_206093189_Chen_312608417</RootNamespace>
+    <AssemblyName>C20 EX01 Shiraz 206093189 Chen 312608417</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="FacebookUserWrapper.cs" />
+    <Compile Include="FormAlbums.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlbums.Designer.cs">
+      <DependentUpon>FormAlbums.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBirthDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBirthDay.Designer.cs">
+      <DependentUpon>FormBirthDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckIn.Designer.cs">
+      <DependentUpon>FormCheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCorona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCorona.Designer.cs">
+      <DependentUpon>FormCorona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvents.designer.cs">
+      <DependentUpon>FormEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacebook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacebook.Designer.cs">
+      <DependentUpon>FormFacebook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFriends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFriends.Designer.cs">
+      <DependentUpon>FormFriends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGroups.designer.cs">
+      <DependentUpon>FormGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostLikely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostLikely.Designer.cs">
+      <DependentUpon>FormMostLikely.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPosts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPosts.designer.cs">
+      <DependentUpon>FormPosts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\V8.0.0.0\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FbGraphApiWrapper, Version=6.8.0.18, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\V8.0.0.0\FbGraphApiWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.txt" />
+    <None Include="Resources\C20 EX01 Shiraz 206093189 Chen 312608417.docx" />
+    <None Include="Resources\MostLikelyNew.jpg" />
+    <None Include="Resources\NoPermission.jpg" />
+    <None Include="Resources\welcome.jpg" />
+    <None Include="Resources\upload.jpg" />
+    <None Include="Resources\post.jpg" />
+    <None Include="Resources\logoNew.jpg" />
+    <None Include="Resources\postsNew.jpg" />
+    <None Include="Resources\groupNew.jpg" />
+    <None Include="Resources\frinedsNew.jpg" />
+    <None Include="Resources\eventsNew.jpg" />
+    <None Include="Resources\coronaNew.jpg" />
+    <None Include="Resources\checkinNew.jpg" />
+    <None Include="Resources\birthdayNew.jpg" />
+    <None Include="Resources\albumsNew.jpg" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAlbums.resx">
+      <DependentUpon>FormAlbums.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBirthDay.resx">
+      <DependentUpon>FormBirthDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckIn.resx">
+      <DependentUpon>FormCheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCorona.resx">
+      <DependentUpon>FormCorona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvents.resx">
+      <DependentUpon>FormEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFacebook.resx">
+      <DependentUpon>FormFacebook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFriends.resx">
+      <DependentUpon>FormFriends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGroups.resx">
+      <DependentUpon>FormGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostLikely.resx">
+      <DependentUpon>FormMostLikely.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPosts.resx">
+      <DependentUpon>FormPosts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

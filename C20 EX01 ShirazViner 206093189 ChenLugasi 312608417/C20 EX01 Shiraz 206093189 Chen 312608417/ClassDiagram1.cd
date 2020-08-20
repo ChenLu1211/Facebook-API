@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.AppSettings" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>AppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FacebookUserWrapper" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FacebookUserWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormAlbums" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAAACAAAYCAAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormAlbums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormBirthDay" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAgACAAAICAAAAAQAAAAAAIAAAAAA=</HashCode>
+      <FileName>FormBirthDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormCheckIn" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCABABAAAACAAAICABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormCheckIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormCorona" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAKABEBAAAACAAAICAABAEAAAAAAAAAABAgA=</HashCode>
+      <FileName>FormCorona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormEvents" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAABAACAAAICEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormFacebook">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ATFQCkQAAmABJFgOAAGAgkYCREAQCQkHAQBAAIAAwwA=</HashCode>
+      <FileName>FormFacebook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormFriends" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAAACAAAICIFAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormFriends.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormGroups" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACABAAAEAACAACICAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormGroups.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormLogin" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAgIIAGAAAASAAAAAAAAAAAABABgAAA=</HashCode>
+      <FileName>FormLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormMustLikely" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAQACAJAJgAAACgAAIDKAGAABABAAAAAAAABAA=</HashCode>
+      <FileName>FormMustLikely.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.FormPosts" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQCAAAICAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>FormPosts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C20_EX01_Shiraz_206093189_Chen_312608417.Program" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
