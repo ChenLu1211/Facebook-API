@@ -12,3 +12,4 @@ The app gives the user a basic Facebook experience and in addition to the usage 
 in addition to adding to the message a tagging of the last places the user has stayed according to Facebook.
 
 2.A database of all the user's personal items that his friends' favorites (photo / post ..)
+
